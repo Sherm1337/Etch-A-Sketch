@@ -8,7 +8,7 @@ createGrid.addEventListener("click", function gridSize() {
 
     let gridNum = prompt("Enter an amount:");
 
-    if (gridNum > 100 || gridNum !== Number) {
+    if (gridNum > 100) {
         alert("Please enter a number under 100.");
     } else {
         let gridSize = gridNum * gridNum;
