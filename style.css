@@ -1,0 +1,16 @@
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+.gridContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 960px;
+    height: 960px;
+    border: solid 1px black;
+}
+.square {
+    flex: 1 0 auto;
+}
