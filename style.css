@@ -38,25 +38,8 @@ p {
     border: solid 1px chartreuse;
 }
 
-@keyframes hover {
-    0% {
-        background-color: transparent;
-    }
-    100% {
-        background-color: chartreuse;
-    }
-}
 
 .square {
     flex: 1 0 auto;
-    animation-name: hover;
-    animation-duration: 200ms;
-    animation-fill-mode: backwards;
-    animation-play-state: paused;
-}
-.square:active,
-.square:focus,
-.square:hover {
-    animation-fill-mode: forwards;
-    animation-play-state: running;
+    opacity: 0;
 }
